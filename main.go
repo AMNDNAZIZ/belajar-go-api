@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/amndnaziz/belajar-go/controller/productcontroller"
-	"github.com/amndnaziz/belajar-go/models"
+	"github.com/amndnaziz/belajar-go-api/controller/productcontroller"
+	"github.com/amndnaziz/belajar-go-api/models"
 	"github.com/gin-gonic/gin"
 )
 

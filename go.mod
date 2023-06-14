@@ -1,4 +1,4 @@
-module github.com/amndnaziz/belajar-go
+module github.com/amndnaziz/belajar-go-api
 
 go 1.20
 
