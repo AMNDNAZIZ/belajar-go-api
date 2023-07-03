@@ -1,7 +1,7 @@
 package models
 
 type Product struct {
-	id          int64  `gorm:"primaryKey" json:"id"`
-	namaProduct string `gorm:"type:varchar(300)" json:"nama_product"`
-	deskripsi   string `gorm:"type:text" json:"deskripsi"`
+	Id          int64  `gorm:"primaryKey" json:"id"`
+	NamaProduct string `gorm:"type:varchar(300)" json:"nama_product"`
+	Deskripsi   string `gorm:"type:text" json:"deskripsi"`
 }

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/amndnaziz/belajar-go-api/controller/productcontroller"
+	"github.com/amndnaziz/belajar-go-api/controllers/productcontroller"
 	"github.com/amndnaziz/belajar-go-api/models"
 	"github.com/gin-gonic/gin"
 )
@@ -13,9 +13,9 @@ func main() {
 
 	r.GET("/api/products", productcontroller.Index)
 	r.GET("/api/products/:id", productcontroller.Show)
-	r.POST("/api/products", productcontroller.Create)
-	r.PUT("/api/products", productcontroller.Update)
-	r.DELETE("/api/products", productcontroller.Delete)
+	r.POST("/api/add-product", productcontroller.Create)
+	r.PUT("/api/product/:id", productcontroller.Update)
+	r.DELETE("/api/product", productcontroller.Delete)
 
-	r.RUN()
+	r.Run()
 }
